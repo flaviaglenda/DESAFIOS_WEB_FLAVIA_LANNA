@@ -1,0 +1,68 @@
+/* Flávia Glenda e Lanna Kamilly */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.container {
+    max-width: 800px;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+.produto .preco {
+    color: rgb(223, 22, 22);
+}
+
+.produto {
+    display: flex;
+    align-items: center;
+    border: 1px solid #e4e2e2;
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.produto img {
+    max-width: 200px;
+    margin-right: 20px;
+}
+
+.produtoinformacoes {
+    flex: 1;
+    text-align: left; 
+}
+
+.computador {
+    color: #333;
+    margin-top: 0;
+}
+
+.paragrafo1,
+.paragrafo2 {
+    margin-top: 5px;
+    text-align: left; 
+}
+
+.carrinho {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.carrinho:hover {
+    background-color: #45a049;
+}

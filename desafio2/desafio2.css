@@ -1,0 +1,39 @@
+/* Flávia Glenda e Lanna Kamilly */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    text-align: center; 
+    padding: 20px;
+}
+
+.img {
+    border-radius: 20px;
+    box-shadow: 10px 5px 5px 5px rgba(0, 0, 0, 0.1); 
+    background-color: #fff; 
+    padding: 20px; 
+    display: inline-block; 
+    max-width: 850px;
+}
+
+.img img {
+    width: 100%; 
+    border-radius: 10px; 
+    display: block; 
+}
+
+.titulo {
+    font-size: 34px; 
+    margin-top: 20px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 10px; 
+    text-align: center;
+}
+.paragrafo {
+    font-size: 17px; 
+    text-align: center; 
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
